@@ -27,6 +27,6 @@
 - Освоить DevOps‑инструменты
 - Делать приложения с чистой архитектурой и удобным UI
 
-📈 GitHub статистика (опционально)
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=irovbyte&show_icons=true&theme=tokyonight)
 
