@@ -15,9 +15,9 @@
 
 📚 Сейчас изучаю
 - Bash и Linux‑инструменты
+- C/С++
+- C#
 - WPF UI/UX + Fluent Design
-- GitHub Actions (CI/CD)
-- PowerShell для автоматизации
 - Алгоритмы и структуры данных
 - Создание профессиональных инсталляторов (MSI, Inno Setup)
 
