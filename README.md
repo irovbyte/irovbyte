@@ -144,49 +144,6 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-## 🗺️ Архитектура экосистемы (Ecosystem Architecture)
-
-```mermaid
-graph TD
-    classDef client fill:#0B0E17,stroke:#00E5FF,stroke-width:2px,color:#00E5FF;
-    classDef web fill:#0B0E17,stroke:#8B5CF6,stroke-width:2px,color:#8B5CF6;
-    classDef proto fill:#0B0E17,stroke:#F59E0B,stroke-width:2px,stroke-dasharray: 4 4,color:#F59E0B;
-    classDef core fill:#0B0E17,stroke:#FF007F,stroke-width:2px,color:#FF007F;
-    classDef data fill:#0B0E17,stroke:#00FF88,stroke-width:2px,color:#00FF88;
-
-    subgraph CLIENTS["📱 Cross-Platform Clients"]
-        MAUI["Obxodka Client (.NET MAUI)<br/>Windows 11 & Android (SkiaSharp 120 FPS)"]:::client
-        WINTUN["Kernel Subsystem Driver<br/>Wintun L3 Ring Buffer & VpnService"]:::client
-        MAUI --- WINTUN
-    end
-
-    subgraph PORTAL["🌐 Web Platform"]
-        BLAZOR["OctoCore Web Portal (Blazor WASM)<br/>Reactive SPA • Cyberpunk UI • Store Reviews Sync"]:::web
-    end
-
-    subgraph PROTO["⚡ Low-Latency Tunneling"]
-        OBX["OBXODKA-STREAM Protocol<br/>mTLS 1.3 • Dual-Ray Hedging • ClientHello Desync"]:::proto
-    end
-
-    subgraph BACKEND["🛡️ Core Gateway & System Layer"]
-        GATEWAY["Octopus Core Engine (ASP.NET Core 10)<br/>Kestrel HTTP/2 Duplex Stream • Zero-Copy ArrayPool"]:::core
-        TUN["Linux tun0 Kernel I/O<br/>libc Zero-Allocation • L3 DNS Sinkhole"]:::core
-        GATEWAY --- TUN
-    end
-
-    subgraph STORAGE["💾 High-Load Database Tier"]
-        SQL["PostgreSQL 14+ / MS SQL Server 2022<br/>ACID Transactions • B-Tree/GIN Indexes • Dapper & EF Core"]:::data
-    end
-
-    MAUI -->|Encrypted Tunnel| OBX
-    BLAZOR -->|REST API & WebSockets| GATEWAY
-    OBX --> GATEWAY
-    GATEWAY -->|Async Pipeline| SQL
-```
-
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
-</p>
 
 ## 🐙 Ключевые проекты (Featured Projects)
 
