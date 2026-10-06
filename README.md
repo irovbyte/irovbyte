@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Roman Zoripov Header" />
+  <img src="assets/header.svg" width="100%" alt="Roman Zoripov Banner" />
 </p>
 
 <p align="center">
   <a href="https://github.com/OctoCore-Dev/obxodka">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=650&lines=Architecting+Next-Gen+Stealth+Networking+Protocols;Low-Level+Network+Engineering+%E2%80%A2+Wintun+%26+Linux+TUN;Zero-Allocation+High-Throughput+.NET+10+%26+C%23+14;120+FPS+Hardware-Accelerated+SkiaSharp+Living+UI;Founder+of+OctoCore+%E2%80%A2+Unstoppable+Privacy" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=780&lines=Full-Stack+.NET+Architect+%E2%80%A2+ASP.NET+Core+%26+Blazor+WebAssembly;Cross-Platform+Engineering+%E2%80%A2+.NET+MAUI+%26+SkiaSharp+120+FPS;High-Load+Database+Optimization+%E2%80%A2+PostgreSQL+%26+MS+SQL+Server;Low-Level+Network+Protocols+%E2%80%A2+Wintun+L3+%26+Linux+TUN;Founder+of+OctoCore+%E2%80%A2+Engineering+Digital+Freedom" alt="Typing SVG" />
   </a>
 </p>
 
@@ -23,45 +23,87 @@
 
 ## 👨‍💻 О себе (About Me)
 
-Привет! Я **Роман** (`irovbyte`) — системный разработчик, архитектор высоконагруженных сетевых решений и основатель исследовательской команды **OctoCore**.
+Привет! Я **Роман** (`irovbyte`) — Full-Stack .NET разработчик, архитектор высокопроизводительных веб- и десктоп-систем, специалист по низкоуровневым сетевым протоколам и базам данных, основатель исследовательской команды **OctoCore**.
 
-Специализируюсь на проектировании низкоуровневых протоколов обхода цензуры и DPI/ТСПУ, сетевых драйверах уровня ядра (**Wintun Layer 3**, **Linux TUN**), экстремальной оптимизации памяти (**Zero-Allocation**, `ArrayPool`, lockless ring-буферы) и создании высокопроизводительных кроссплатформенных приложений с графикой SkiaSharp на частоте 120 FPS.
+Мой стек сочетает полный цикл разработки современных приложений: от реактивных веб-интерфейсов на **Blazor WebAssembly** и мобильных клиентов на **.NET MAUI** до высоконагруженных бэкендов на **ASP.NET Core**, сложных аналитических запросов в **SQL / PostgreSQL** и системного программирования уровня ядра (**Wintun Layer 3**, **Linux TUN**).
 
-- 🐙 **Основатель и ведущий разработчик [OctoCore](https://github.com/OctoCore-Dev):** создаю экосистему безопасного и свободного интернета.
-- ⚡ **Ядро [obxodka](https://github.com/OctoCore-Dev/obxodka):** автор проприетарного протокола `OBXODKA-STREAM`, технологии `Dual-Ray Hedging` (удвоение пакетов с мгновенной дедупликацией для киберспортивного пинга в играх) и аппаратного L3 DNS Sinkhole.
-- 🛠️ **Инженерные принципы:** 0 предупреждений компилятора (`0 warnings, 0 errors`), микросекундная задержка, строгий Zero-Log и бескомпромиссная надежность.
+- 🐙 **Основатель и ведущий разработчик [OctoCore](https://github.com/OctoCore-Dev):** проектирую надежную распределенную экосистему защищенных сервисов и инструментов.
+- 🌐 **Full-Stack веб-архитектура:** создаю быстрые SPA-приложения на Blazor и микросервисы на ASP.NET Core с фокусом на минимальное потребление RAM, безопасность и мгновенный отклик.
+- 📱 **Кроссплатформенный клиентский инжиниринг:** разрабатываю приложения на .NET MAUI с аппаратным SkiaSharp рендерингом на 120 FPS и нативной интеграцией с ОС Windows и Android.
+- 💾 **Глубокая экспертиза в SQL:** проектирование реляционных схем данных высокой нормализации, тонкая настройка индексов, оптимизация планов запросов (Query Execution Plans), транзакции ACID и работа с большими объемами информации.
+- ⚡ **Низкоуровневые сети:** автор протокола `OBXODKA-STREAM`, технологии `Dual-Ray Hedging` (устранение потерь пакетов и нулевой пинг в играх) и аппаратного L3 DNS Sinkhole.
 
 ---
 
-## 🛠️ Технологический арсенал (Tech Stack)
+## 🛠️ Технологический арсенал (Technical Stack)
 
-### 💻 Языки программирования & Runtime
-<p align="left">
-  <img src="https://img.shields.io/badge/C%23_14-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET_10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 10" />
-  <img src="https://img.shields.io/badge/C++_23-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/C_17-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black" alt="Rust" />
-  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PowerShell_Core-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-</p>
-
-### 🌐 Сетевой инжиниринг, ядро & криптография
-- **Сетевые драйверы:** Wintun Layer 3 Driver (C P/Invoke, 64 MB Ring Buffer), Linux TUN (`/dev/net/tun`, libc zero-copy I/O).
-- **Протоколы и транспорт:** HTTP/2 Duplex Streaming, TLS 1.3 / mTLS mutual verification, SPKI Public Key Pinning, TCP BBR, Dual-Ray Hedging.
-- **Обход DPI и маскировка:** Multi-Stage TLS ClientHello Splitting (1-4B fragment delays), Anycast CDN SNI Camouflage, динамическая обфускация длин пакетов.
-- **Криптография:** AES-256-GCM, ChaCha20-Poly1305, Curve25519 (X25519), NIST P-256, PBKDF2, аппаратное ускорение AES-NI & ARM Neon.
-- **Сетевая защита:** L3 DNS Sinkhole, Windows NRPT, защита от DNS/IPv6 Leak, Zero-Flicker Disconnect.
-
-### 🎨 Архитектура приложений & UI/UX
-- **Кроссплатформенный UI:** .NET MAUI (Windows & Android), SkiaSharp 120 FPS Hardware Render Loop, Avalonia UI, WPF.
-- **Графические эффекты:** Многослойный Bloom (HDR Neon Glow), сакральная полигональная геометрия, 9-Slice текстурные фреймы, шейдерные системы частиц.
-- **Оптимизация памяти:** Высокоскоростной Zero-Allocation конвейер, `ArrayPool<byte>.Shared`, Span/Memory&lt;T&gt;, lockless очереди каналов (`System.Threading.Channels`).
-
-### 🚀 DevOps, Инфраструктура & Столы
-- **CI/CD Автоматизация:** GitHub Actions (автоматическая сборка, тестирование xUnit и публикация в **Google Play Console** и **Microsoft Partner Center**).
-- **Инфраструктура:** Linux (Debian, Ubuntu), Docker, Kestrel, PostgreSQL 14, Caddy reverse-proxy, Cloudflare Anycast CDN.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 Backend & Web Architecture</h3>
+      <p>
+        <img src="https://img.shields.io/badge/ASP.NET_Core_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+        <img src="https://img.shields.io/badge/Blazor_WASM-512BD4?style=flat-square&logo=blazor&logoColor=white" />
+        <img src="https://img.shields.io/badge/Kestrel-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
+        <img src="https://img.shields.io/badge/REST_API-00C853?style=flat-square" />
+      </p>
+      <ul>
+        <li><b>ASP.NET Core:</b> высокопроизводительные REST API, WebSockets, Kestrel HTTP/2 дуплексный стриминг.</li>
+        <li><b>Blazor WebAssembly & Server:</b> компонентные реактивные веб-интерфейсы на C# в браузере без JavaScript-прослоек.</li>
+        <li><b>Безопасность:</b> взаимная mTLS аутентификация, JWT, Role-Based Access Control, анти-DDoS защита.</li>
+        <li><b>Оптимизация:</b> Source-Generated JSON сериализаторы, кэширование в памяти и асинхронные пайплайны.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💾 Databases & SQL Engineering</h3>
+      <p>
+        <img src="https://img.shields.io/badge/PostgreSQL_14+-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/MS_SQL_Server_2022-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/EF_Core_10-512BD4?style=flat-square" />
+        <img src="https://img.shields.io/badge/Dapper-008080?style=flat-square" />
+      </p>
+      <ul>
+        <li><b>Реляционные СУБД:</b> PostgreSQL, MS SQL Server, проектирование отказоустойчивых схем данных.</li>
+        <li><b>Оптимизация SQL:</b> профилирование сложных запросов (<code>EXPLAIN ANALYZE</code>), B-Tree/GIN/BRIN индексы.</li>
+        <li><b>ORM & Micro-ORM:</b> EF Core 10 (миграции, Split Queries, Compiled Models), высокоскоростной Dapper.</li>
+        <li><b>ACID & Партиционирование:</b> управление транзакциями, изолированность данных и архивация больших таблиц.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📱 Cross-Platform UI & Clients</h3>
+      <p>
+        <img src="https://img.shields.io/badge/.NET_MAUI-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+        <img src="https://img.shields.io/badge/SkiaSharp_120_FPS-FF1493?style=flat-square" />
+        <img src="https://img.shields.io/badge/XAML_%2F_MVVM-239120?style=flat-square" />
+        <img src="https://img.shields.io/badge/Avalonia_UI-8B5CF6?style=flat-square" />
+      </p>
+      <ul>
+        <li><b>.NET MAUI:</b> нативная кроссплатформенная разработка под Windows 10/11 и Android.</li>
+        <li><b>SkiaSharp 120 FPS:</b> векторный графический конвейер с аппаратным GPU-ускорением и шейдерами.</li>
+        <li><b>Artisan VFX:</b> сакральная геометрия, 3-уровневый HDR Neon Bloom, живые реакторы и системы частиц.</li>
+        <li><b>Платформенная интеграция:</b> фоновые службы Android (FGS), Win32 / WinRT API, DPAPI и Android Keystore.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ Low-Level Systems & Networking</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Wintun_Driver-FF8C00?style=flat-square&logo=windows&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux_TUN-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/TLS_1.3_%2F_mTLS-00C853?style=flat-square" />
+        <img src="https://img.shields.io/badge/Zero--Allocation-00E5FF?style=flat-square" />
+      </p>
+      <ul>
+        <li><b>Драйверы уровня ядра:</b> Wintun Layer 3 Driver (кольцевой буфер 64 МБ), Linux <code>tun0</code> I/O libc P/Invoke.</li>
+        <li><b>Dual-Ray Hedging:</b> параллельное клонирование чувствительного UDP/ICMP с аппаратной дедупликацией в окне 500мс.</li>
+        <li><b>DPI & ТСПУ Bypass:</b> 3-этапная десинхронизация ClientHello, динамическая обфускация и камуфляж под Anycast CDN.</li>
+        <li><b>Память & Concurrency:</b> <code>ArrayPool&lt;byte&gt;.Shared</code>, Span/Memory&lt;T&gt;, lockless ring-буферы.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -74,56 +116,62 @@
       <p align="center">
         <a href="https://play.google.com/store/apps/details?id=com.octocore.obxodka"><img src="https://img.shields.io/badge/Google_Play-Live-00C853?style=flat-square&logo=googleplay" /></a>
         <a href="https://apps.microsoft.com/store/detail/9NZXP5WR803J"><img src="https://img.shields.io/badge/Microsoft_Store-Live-0078D4?style=flat-square&logo=windows" /></a>
+        <img src="https://img.shields.io/badge/.NET_MAUI-512BD4?style=flat-square" />
+        <img src="https://img.shields.io/badge/SkiaSharp-120_FPS-FF1493?style=flat-square" />
       </p>
       <p>
-        Флагманский стелс-VPN клиент нового поколения для Windows и Android.
+        Флагманский стелс-VPN клиент для Windows и Android.
       </p>
       <ul>
-        <li><b>OBXODKA-STREAM:</b> прямой дуплексный HTTP/2 стриминг по порту 443 с маскировкой под CDN.</li>
-        <li><b>Dual-Ray Hedging:</b> параллельное клонирование игрового UDP и ICMP-пингов с zero-allocation дедупликацией (окно 500мс) — нулевые потери пакетов в играх!</li>
-        <li><b>Драйвер Wintun L3:</b> кольцевой буфер 64 МБ и суб-миллисекундная обработка пакетов.</li>
-        <li><b>Zero-Flicker Disconnect:</b> чистое отключение без моргания сетевого стека Windows.</li>
-        <li><b>Living SkiaSharp UI:</b> квантовый реактор, неоновый bloom и частицы на 120 FPS.</li>
+        <li><b>Клиентский стек:</b> .NET MAUI, C# 14, драйвер Wintun L3, Android VpnService, SkiaSharp 120 FPS.</li>
+        <li><b>Инновации:</b> протокол OBXODKA-STREAM, Dual-Ray Hedging (нулевой пинг в играх), Sub-second 500ms Ping Probing, Zero-Flicker Disconnect, аппаратный L3 DNS Sinkhole.</li>
+        <li><b>Безопасность:</b> строгий No-Logs (пакеты обрабатываются исключительно в RAM), аппаратное хранилище ключей (DPAPI / Keystore).</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">⚡ Octopus Core Engine (Server Gateway)</h3>
+      <h3 align="center"><a href="https://github.com/OctoCore-Dev/octocoreweb">🌐 OctoCore Web Portal</a></h3>
       <p align="center">
-        <a href="https://obxodka.one"><img src="https://img.shields.io/badge/Repository-Private_Core-critical?style=flat-square&logo=github" /></a>
-        <img src="https://img.shields.io/badge/Server-Linux_tun0-orange?style=flat-square&logo=linux" />
-        <img src="https://img.shields.io/badge/.NET_10-Kestrel_HTTP%2F2-512BD4?style=flat-square&logo=dotnet" />
-        <img src="https://img.shields.io/badge/Architecture-Proprietary-blue?style=flat-square" />
+        <a href="https://obxodka.one"><img src="https://img.shields.io/badge/Live_Site-obxodka.one-8B5CF6?style=flat-square&logo=googlechrome" /></a>
+        <img src="https://img.shields.io/badge/Blazor-WASM-512BD4?style=flat-square&logo=blazor" />
+        <img src="https://img.shields.io/badge/ASP.NET_Core-Kestrel-239120?style=flat-square&logo=dotnet" />
       </p>
       <p>
-        Закрытое серверное ядро кластера маршрутизации (Private Core Architecture).
+        Официальный портал и веб-платформа экосистемы OctoCore.
       </p>
       <ul>
-        <li><b>LinuxTun:</b> прямой libc P/Invoke I/O через указатели с нулевым копированием (Zero-Copy).</li>
-        <li><b>Строгий Zero-Log:</b> обработка пакетов строго в энергозависимой RAM (ArrayPool) без сохранения логов на SSD.</li>
-        <li><b>Dual-Ray Router &amp; Deduplicator:</b> обратное дублирование пакетов реального времени и дедупликация входящих фреймов.</li>
-        <li><b>Dynamic Camouflage:</b> fallback на легитимный веб-сайт при неавторизованных HTTP-запросах.</li>
+        <li><b>Frontend:</b> Blazor WebAssembly с реактивной компонентной архитектурой, темной киберпанк-эстетикой и клиентским кэшированием.</li>
+        <li><b>Интеграция:</b> живая фоновая синхронизация реальных отзывов пользователей из Google Play Store и Microsoft Store.</li>
+        <li><b>Сервис:</b> личный кабинет, безопасный биллинг, интеграция подписок и документация.</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/irovbyte/Uni-Sentinel">🛡️ Uni-Sentinel</a></h3>
+      <h3 align="center">⚡ Octopus Core Engine (Server Gateway)</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/CI%2FCD-Local_Pipeline-brightgreen?style=flat-square&logo=githubactions" />
-        <img src="https://img.shields.io/badge/Quality-Valgrind_%26_Clang-blue?style=flat-square" />
+        <a href="https://obxodka.one"><img src="https://img.shields.io/badge/Repository-Private_Core-critical?style=flat-square&logo=github" /></a>
+        <img src="https://img.shields.io/badge/ASP.NET_Core_10-512BD4?style=flat-square&logo=dotnet" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql" />
+        <img src="https://img.shields.io/badge/Linux_tun0-orange?style=flat-square&logo=linux" />
       </p>
       <p>
-        Универсальный локальный CI/CD пайплайн запуска одной командой. Автоматическая проверка стиля (Clang-format, PEP8), умная сборка, юнит-тесты и глубокий анализ утечек памяти через Valgrind для проектов на C и Python.
+        Закрытый высокопроизводительный серверный кластер маршрутизации и шлюз.
       </p>
+      <ul>
+        <li><b>Стек:</b> ASP.NET Core 10 Kestrel HTTP/2, PostgreSQL 14+, Linux libc zero-copy I/O.</li>
+        <li><b>Строгий Zero-Log:</b> обработка пакетов строго в энергозависимой RAM (ArrayPool) без сохранения логов сетевой активности.</li>
+        <li><b>Маршрутизация:</b> Dual-Ray Router &amp; Deduplicator, динамический камуфляж под Anycast CDN.</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/OctoCore-Dev/themes">🎨 OctoCore Theme Engine</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Engine-SkiaSharp_2D-FF1493?style=flat-square" />
         <img src="https://img.shields.io/badge/Format-JSON_%26_WebP-yellow?style=flat-square" />
+        <img src="https://img.shields.io/badge/60_FPS-Animations-brightgreen?style=flat-square" />
       </p>
       <p>
-        Открытая экосистема кастомизации и визуальных скинов для клиентов Obxodka: токены градиентов, 9-Slice нарезка текстурных рамок, кастомные WebP-анимации 60 FPS и гибкие системы частиц (сакура, снег, искры).
+        Открытая экосистема кастомизации и визуальных скинов для клиентов Obxodka: токены палитры и градиентов, 9-Slice нарезка текстурных рамок, кастомные 60 FPS WebP-анимации и динамические системы частиц (сакура, снег, искры).
       </p>
     </td>
   </tr>
@@ -153,5 +201,5 @@
 - ✉️ **Личная почта:** [irovbyte@outlook.com](mailto:irovbyte@outlook.com)
 
 <p align="center">
-  <sub><i>«Code clean, ship fast, never compromise on user privacy.»</i></sub>
+  <sub><i>«Architect clean, build resilient, engineer without compromise.»</i></sub>
 </p>
