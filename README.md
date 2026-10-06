@@ -219,17 +219,6 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-## 🏆 Достижения (Achievements)
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=irovbyte&theme=tokyonight&no-frame=true&no-bg=true&margin_w=4&row=1&column=7" alt="github profile trophy" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
-</p>
 
 ## 📊 Статистика активности (GitHub Metrics & Activity Radar)
 
