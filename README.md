@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,9,20&height=220&section=header&text=Roman%20Zoripov&fontSize=42&fontAlignY=35&desc=Systems%20%26%20Network%20Software%20Engineer%20%E2%80%A2%20Founder%20%40%20OctoCore&descAlignY=55&descSize=18&fontColor=ffffff" width="100%" alt="Roman Zoripov Header" />
+  <img src="assets/header.svg" width="100%" alt="Roman Zoripov Header" />
 </p>
 
 <p align="center">
@@ -57,7 +57,7 @@
 ### 🎨 Архитектура приложений & UI/UX
 - **Кроссплатформенный UI:** .NET MAUI (Windows & Android), SkiaSharp 120 FPS Hardware Render Loop, Avalonia UI, WPF.
 - **Графические эффекты:** Многослойный Bloom (HDR Neon Glow), сакральная полигональная геометрия, 9-Slice текстурные фреймы, шейдерные системы частиц.
-- **Оптимизация памяти:** Высокоскоростной Zero-Allocation конвейер, `ArrayPool<byte>.Shared`, Span/Memory<T>, lockless очереди каналов (`System.Threading.Channels`).
+- **Оптимизация памяти:** Высокоскоростной Zero-Allocation конвейер, `ArrayPool<byte>.Shared`, Span/Memory&lt;T&gt;, lockless очереди каналов (`System.Threading.Channels`).
 
 ### 🚀 DevOps, Инфраструктура & Столы
 - **CI/CD Автоматизация:** GitHub Actions (автоматическая сборка, тестирование xUnit и публикация в **Google Play Console** и **Microsoft Partner Center**).
@@ -87,18 +87,20 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/irovbyte/VpnServer">⚡ Octopus Core / VpnServer</a></h3>
+      <h3 align="center">⚡ Octopus Core Engine (Server Gateway)</h3>
       <p align="center">
+        <a href="https://obxodka.one"><img src="https://img.shields.io/badge/Repository-Private_Core-critical?style=flat-square&logo=github" /></a>
         <img src="https://img.shields.io/badge/Server-Linux_tun0-orange?style=flat-square&logo=linux" />
         <img src="https://img.shields.io/badge/.NET_10-Kestrel_HTTP%2F2-512BD4?style=flat-square&logo=dotnet" />
+        <img src="https://img.shields.io/badge/Architecture-Proprietary-blue?style=flat-square" />
       </p>
       <p>
-        Серверный кластер маршрутизации и шлюз высокой производительности.
+        Закрытое серверное ядро кластера маршрутизации (Private Core Architecture).
       </p>
       <ul>
         <li><b>LinuxTun:</b> прямой libc P/Invoke I/O через указатели с нулевым копированием (Zero-Copy).</li>
         <li><b>Строгий Zero-Log:</b> обработка пакетов строго в энергозависимой RAM (ArrayPool) без сохранения логов на SSD.</li>
-        <li><b>Dual-Ray Router & Deduplicator:</b> обратное дублирование пакетов реального времени и дедупликация входящих фреймов.</li>
+        <li><b>Dual-Ray Router &amp; Deduplicator:</b> обратное дублирование пакетов реального времени и дедупликация входящих фреймов.</li>
         <li><b>Dynamic Camouflage:</b> fallback на легитимный веб-сайт при неавторизованных HTTP-запросах.</li>
       </ul>
     </td>
