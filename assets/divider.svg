@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0" />
+      <stop offset="15%" stop-color="#00E5FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#7928CA" stop-opacity="1" />
+      <stop offset="85%" stop-color="#FF007F" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF007F" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="divGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Line -->
+  <line x1="0" y1="12" x2="1000" y2="12" stroke="#131726" stroke-width="2" />
+  <line x1="50" y1="12" x2="950" y2="12" stroke="url(#divGrad)" stroke-width="1.8" filter="url(#divGlow)" />
+
+  <!-- Center Diamond Nodes -->
+  <polygon points="500,6 506,12 500,18 494,12" fill="#FFFFFF" filter="url(#divGlow)" />
+  <polygon points="250,8 254,12 250,16 246,12" fill="#00E5FF" opacity="0.8" />
+  <polygon points="750,8 754,12 750,16 746,12" fill="#FF007F" opacity="0.8" />
+
+  <!-- Animated Data Pulse 1 (moving left to right) -->
+  <circle r="2.5" fill="#00E5FF" filter="url(#divGlow)">
+    <animate attributeName="cx" from="100" to="900" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="12" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Animated Data Pulse 2 (moving right to left) -->
+  <circle r="2.5" fill="#FF007F" filter="url(#divGlow)">
+    <animate attributeName="cx" from="900" to="100" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="12" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite" />
+  </circle>
+</svg>

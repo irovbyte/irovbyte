@@ -21,6 +21,39 @@
 
 <br/>
 
+<p align="center">
+  <img src="assets/equalizer.svg" width="650" alt="Coding Soundtrack &amp; Vibe" />
+</p>
+
+```bash
+╭─────────────────────────────────────────────────────────────────────────────╮
+│ 🔴 🟡 🟢  irovbyte@quantum-node:~$ neofetch --profile                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  OS: Arch Linux x86_64 / Windows 11 Pro [Hyper-V Subsystem]                 │
+│  Host: High-Concurrency Distributed Workstation                             │
+│  Identity: Roman Zoripov (irovbyte) — Founder @ OctoCore                    │
+│  Uptime: 24/7/365 Non-Stop Engineering                                      │
+│                                                                             │
+│  [Architecture & Web Stack]                                                 │
+│  ASP.NET Core 10 • Blazor WebAssembly • Kestrel HTTP/2 • WebSockets • mTLS  │
+│                                                                             │
+│  [Database & High-Load Tier]                                                │
+│  PostgreSQL 14+ • MS SQL Server • SQLite • EF Core 10 • Dapper • ACID       │
+│                                                                             │
+│  [Cross-Platform Clients]                                                   │
+│  .NET MAUI (Win/Android) • SkiaSharp 120 FPS • Sacred Geometry Bloom        │
+│                                                                             │
+│  [Low-Level Systems & Networking]                                           │
+│  Wintun L3 Ring Buffer • Linux tun0 libc I/O • OBXODKA-STREAM • Dual-Ray    │
+│                                                                             │
+│  Quote: "Architect clean, build resilient, engineer without compromise."    │
+╰─────────────────────────────────────────────────────────────────────────────╯
+```
+
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+</p>
+
 ## 👨‍💻 О себе (About Me)
 
 Привет! Я **Роман** (`irovbyte`) — Full-Stack .NET разработчик, архитектор высокопроизводительных веб- и десктоп-систем, специалист по низкоуровневым сетевым протоколам и базам данных, основатель исследовательской команды **OctoCore**.
@@ -33,7 +66,9 @@
 - 💾 **Глубокая экспертиза в SQL:** проектирование реляционных схем данных высокой нормализации, тонкая настройка индексов, оптимизация планов запросов (Query Execution Plans), транзакции ACID и работа с большими объемами информации.
 - ⚡ **Низкоуровневые сети:** автор протокола `OBXODKA-STREAM`, технологии `Dual-Ray Hedging` (устранение потерь пакетов и нулевой пинг в играх) и аппаратного L3 DNS Sinkhole.
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+</p>
 
 ## 🛠️ Технологический арсенал (Technical Stack)
 
@@ -105,7 +140,53 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+</p>
+
+## 🗺️ Архитектура экосистемы (Ecosystem Architecture)
+
+```mermaid
+graph TD
+    classDef client fill:#0B0E17,stroke:#00E5FF,stroke-width:2px,color:#00E5FF;
+    classDef web fill:#0B0E17,stroke:#8B5CF6,stroke-width:2px,color:#8B5CF6;
+    classDef proto fill:#0B0E17,stroke:#F59E0B,stroke-width:2px,stroke-dasharray: 4 4,color:#F59E0B;
+    classDef core fill:#0B0E17,stroke:#FF007F,stroke-width:2px,color:#FF007F;
+    classDef data fill:#0B0E17,stroke:#00FF88,stroke-width:2px,color:#00FF88;
+
+    subgraph CLIENTS["📱 Cross-Platform Clients"]
+        MAUI["Obxodka Client (.NET MAUI)<br/>Windows 11 & Android (SkiaSharp 120 FPS)"]:::client
+        WINTUN["Kernel Subsystem Driver<br/>Wintun L3 Ring Buffer & VpnService"]:::client
+        MAUI --- WINTUN
+    end
+
+    subgraph PORTAL["🌐 Web Platform"]
+        BLAZOR["OctoCore Web Portal (Blazor WASM)<br/>Reactive SPA • Cyberpunk UI • Store Reviews Sync"]:::web
+    end
+
+    subgraph PROTO["⚡ Low-Latency Tunneling"]
+        OBX["OBXODKA-STREAM Protocol<br/>mTLS 1.3 • Dual-Ray Hedging • ClientHello Desync"]:::proto
+    end
+
+    subgraph BACKEND["🛡️ Core Gateway & System Layer"]
+        GATEWAY["Octopus Core Engine (ASP.NET Core 10)<br/>Kestrel HTTP/2 Duplex Stream • Zero-Copy ArrayPool"]:::core
+        TUN["Linux tun0 Kernel I/O<br/>libc Zero-Allocation • L3 DNS Sinkhole"]:::core
+        GATEWAY --- TUN
+    end
+
+    subgraph STORAGE["💾 High-Load Database Tier"]
+        SQL["PostgreSQL 14+ / MS SQL Server 2022<br/>ACID Transactions • B-Tree/GIN Indexes • Dapper & EF Core"]:::data
+    end
+
+    MAUI -->|Encrypted Tunnel| OBX
+    BLAZOR -->|REST API & WebSockets| GATEWAY
+    OBX --> GATEWAY
+    GATEWAY -->|Async Pipeline| SQL
+```
+
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+</p>
 
 ## 🐙 Ключевые проекты (Featured Projects)
 
@@ -177,9 +258,27 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+</p>
 
-## 📊 Статистика активности (GitHub Metrics)
+## 🏆 Достижения (Achievements)
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=irovbyte&theme=tokyonight&no-frame=true&no-bg=true&margin_w=4&row=1&column=7" alt="github profile trophy" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+</p>
+
+## 📊 Статистика активности (GitHub Metrics & Activity Radar)
+
+<p align="center">
+  <img src="assets/snake.svg" width="100%" alt="Contribution Radar Snake" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=irovbyte&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="GitHub Stats" />
@@ -190,7 +289,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irovbyte&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="55%" alt="Top Languages" />
 </p>
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+</p>
 
 ## 📬 Контакты и связь (Connect With Me)
 
@@ -199,6 +300,8 @@
 - 💬 **Telegram:** [@octo_core](https://t.me/octo_core)
 - 📧 **Рабочая почта:** [contact@octocore.dev](mailto:contact@octocore.dev)
 - ✉️ **Личная почта:** [irovbyte@outlook.com](mailto:irovbyte@outlook.com)
+
+<br/>
 
 <p align="center">
   <sub><i>«Architect clean, build resilient, engineer without compromise.»</i></sub>

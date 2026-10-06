@@ -1,0 +1,567 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 150" width="100%" height="150">
+  <defs>
+    <filter id="snakeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <linearGradient id="gridBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0C16" />
+      <stop offset="100%" stop-color="#0f1424" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .grid-cell { rx: 2.5px; width: 11px; height: 11px; }
+    .c-0 { fill: #161B22; }
+    .c-1 { fill: #0e4429; }
+    .c-2 { fill: #006d32; }
+    .c-3 { fill: #26a641; }
+    .c-4 { fill: #39d353; }
+    .c-neon { fill: #00E5FF; }
+
+    @keyframes snakeMove {
+      0%   { transform: translate(0px, 0px); }
+      15%  { transform: translate(120px, 0px); }
+      25%  { transform: translate(120px, 28px); }
+      40%  { transform: translate(320px, 28px); }
+      55%  { transform: translate(320px, 56px); }
+      70%  { transform: translate(520px, 56px); }
+      85%  { transform: translate(520px, 14px); }
+      100% { transform: translate(750px, 14px); }
+    }
+
+    .snake-head {
+      animation: snakeMove 12s linear infinite;
+    }
+  </style>
+
+  <!-- Background Container -->
+  <rect width="850" height="150" rx="14" fill="url(#gridBg)" stroke="#1F2538" stroke-width="1.2" />
+
+  <!-- Header Title -->
+  <text x="30" y="24" fill="#64748B" font-family="'Fira Code', monospace" font-size="11" font-weight="600" letter-spacing="1">
+    CONTRIBUTION RECEPTOR // COMMITS STREAM
+  </text>
+  <text x="750" y="24" fill="#00FF88" font-family="'Fira Code', monospace" font-size="11" font-weight="600">
+    ● LIVE RADAR
+  </text>
+
+  <!-- Contribution Grid Sample Columns -->
+  <g transform="translate(30, 36)">
+    <!-- Simulated realistic GitHub commit history columns -->
+    <!-- Col 0 - 45 -->
+    <!-- Row spacing: 14px (11px + 3px gap), Col spacing: 14px -->
+    <!-- Col 0 -->
+    <rect x="0" y="0" class="grid-cell c-0" />
+    <rect x="0" y="14" class="grid-cell c-1" />
+    <rect x="0" y="28" class="grid-cell c-2" />
+    <rect x="0" y="42" class="grid-cell c-0" />
+    <rect x="0" y="56" class="grid-cell c-3" />
+    <rect x="0" y="70" class="grid-cell c-1" />
+    <rect x="0" y="84" class="grid-cell c-0" />
+
+    <!-- Col 1 -->
+    <rect x="14" y="0" class="grid-cell c-1" />
+    <rect x="14" y="14" class="grid-cell c-2" />
+    <rect x="14" y="28" class="grid-cell c-3" />
+    <rect x="14" y="42" class="grid-cell c-4" />
+    <rect x="14" y="56" class="grid-cell c-2" />
+    <rect x="14" y="70" class="grid-cell c-0" />
+    <rect x="14" y="84" class="grid-cell c-1" />
+
+    <!-- Col 2 -->
+    <rect x="28" y="0" class="grid-cell c-2" />
+    <rect x="28" y="14" class="grid-cell c-3" />
+    <rect x="28" y="28" class="grid-cell c-4" />
+    <rect x="28" y="42" class="grid-cell c-3" />
+    <rect x="28" y="56" class="grid-cell c-4" />
+    <rect x="28" y="70" class="grid-cell c-2" />
+    <rect x="28" y="84" class="grid-cell c-1" />
+
+    <!-- Col 3 -->
+    <rect x="42" y="0" class="grid-cell c-3" />
+    <rect x="42" y="14" class="grid-cell c-4" />
+    <rect x="42" y="28" class="grid-cell c-3" />
+    <rect x="42" y="42" class="grid-cell c-2" />
+    <rect x="42" y="56" class="grid-cell c-1" />
+    <rect x="42" y="70" class="grid-cell c-3" />
+    <rect x="42" y="84" class="grid-cell c-4" />
+
+    <!-- Col 4 -->
+    <rect x="56" y="0" class="grid-cell c-1" />
+    <rect x="56" y="14" class="grid-cell c-2" />
+    <rect x="56" y="28" class="grid-cell c-4" />
+    <rect x="56" y="42" class="grid-cell c-4" />
+    <rect x="56" y="56" class="grid-cell c-3" />
+    <rect x="56" y="70" class="grid-cell c-1" />
+    <rect x="56" y="84" class="grid-cell c-2" />
+
+    <!-- Col 5 -->
+    <rect x="70" y="0" class="grid-cell c-2" />
+    <rect x="70" y="14" class="grid-cell c-3" />
+    <rect x="70" y="28" class="grid-cell c-1" />
+    <rect x="70" y="42" class="grid-cell c-0" />
+    <rect x="70" y="56" class="grid-cell c-2" />
+    <rect x="70" y="70" class="grid-cell c-4" />
+    <rect x="70" y="84" class="grid-cell c-3" />
+
+    <!-- Col 6 -->
+    <rect x="84" y="0" class="grid-cell c-4" />
+    <rect x="84" y="14" class="grid-cell c-4" />
+    <rect x="84" y="28" class="grid-cell c-3" />
+    <rect x="84" y="42" class="grid-cell c-2" />
+    <rect x="84" y="56" class="grid-cell c-4" />
+    <rect x="84" y="70" class="grid-cell c-3" />
+    <rect x="84" y="84" class="grid-cell c-2" />
+
+    <!-- Col 7 -->
+    <rect x="98" y="0" class="grid-cell c-3" />
+    <rect x="98" y="14" class="grid-cell c-2" />
+    <rect x="98" y="28" class="grid-cell c-4" />
+    <rect x="98" y="42" class="grid-cell c-4" />
+    <rect x="98" y="56" class="grid-cell c-3" />
+    <rect x="98" y="70" class="grid-cell c-1" />
+    <rect x="98" y="84" class="grid-cell c-0" />
+
+    <!-- Col 8 -->
+    <rect x="112" y="0" class="grid-cell c-2" />
+    <rect x="112" y="14" class="grid-cell c-3" />
+    <rect x="112" y="28" class="grid-cell c-2" />
+    <rect x="112" y="42" class="grid-cell c-1" />
+    <rect x="112" y="56" class="grid-cell c-4" />
+    <rect x="112" y="70" class="grid-cell c-4" />
+    <rect x="112" y="84" class="grid-cell c-3" />
+
+    <!-- Col 9 -->
+    <rect x="126" y="0" class="grid-cell c-1" />
+    <rect x="126" y="14" class="grid-cell c-4" />
+    <rect x="126" y="28" class="grid-cell c-3" />
+    <rect x="126" y="42" class="grid-cell c-2" />
+    <rect x="126" y="56" class="grid-cell c-0" />
+    <rect x="126" y="70" class="grid-cell c-2" />
+    <rect x="126" y="84" class="grid-cell c-4" />
+
+    <!-- Col 10 -->
+    <rect x="140" y="0" class="grid-cell c-3" />
+    <rect x="140" y="14" class="grid-cell c-4" />
+    <rect x="140" y="28" class="grid-cell c-4" />
+    <rect x="140" y="42" class="grid-cell c-3" />
+    <rect x="140" y="56" class="grid-cell c-2" />
+    <rect x="140" y="70" class="grid-cell c-1" />
+    <rect x="140" y="84" class="grid-cell c-3" />
+
+    <!-- Col 11 -->
+    <rect x="154" y="0" class="grid-cell c-2" />
+    <rect x="154" y="14" class="grid-cell c-3" />
+    <rect x="154" y="28" class="grid-cell c-1" />
+    <rect x="154" y="42" class="grid-cell c-4" />
+    <rect x="154" y="56" class="grid-cell c-4" />
+    <rect x="154" y="70" class="grid-cell c-2" />
+    <rect x="154" y="84" class="grid-cell c-0" />
+
+    <!-- Col 12 -->
+    <rect x="168" y="0" class="grid-cell c-4" />
+    <rect x="168" y="14" class="grid-cell c-4" />
+    <rect x="168" y="28" class="grid-cell c-3" />
+    <rect x="168" y="42" class="grid-cell c-2" />
+    <rect x="168" y="56" class="grid-cell c-1" />
+    <rect x="168" y="70" class="grid-cell c-3" />
+    <rect x="168" y="84" class="grid-cell c-4" />
+
+    <!-- Col 13 -->
+    <rect x="182" y="0" class="grid-cell c-3" />
+    <rect x="182" y="14" class="grid-cell c-2" />
+    <rect x="182" y="28" class="grid-cell c-4" />
+    <rect x="182" y="42" class="grid-cell c-3" />
+    <rect x="182" y="56" class="grid-cell c-4" />
+    <rect x="182" y="70" class="grid-cell c-2" />
+    <rect x="182" y="84" class="grid-cell c-1" />
+
+    <!-- Col 14 -->
+    <rect x="196" y="0" class="grid-cell c-2" />
+    <rect x="196" y="14" class="grid-cell c-4" />
+    <rect x="196" y="28" class="grid-cell c-3" />
+    <rect x="196" y="42" class="grid-cell c-2" />
+    <rect x="196" y="56" class="grid-cell c-0" />
+    <rect x="196" y="70" class="grid-cell c-1" />
+    <rect x="196" y="84" class="grid-cell c-3" />
+
+    <!-- Col 15 -->
+    <rect x="210" y="0" class="grid-cell c-1" />
+    <rect x="210" y="14" class="grid-cell c-3" />
+    <rect x="210" y="28" class="grid-cell c-4" />
+    <rect x="210" y="42" class="grid-cell c-4" />
+    <rect x="210" y="56" class="grid-cell c-3" />
+    <rect x="210" y="70" class="grid-cell c-2" />
+    <rect x="210" y="84" class="grid-cell c-4" />
+
+    <!-- Col 16 -->
+    <rect x="224" y="0" class="grid-cell c-4" />
+    <rect x="224" y="14" class="grid-cell c-3" />
+    <rect x="224" y="28" class="grid-cell c-2" />
+    <rect x="224" y="42" class="grid-cell c-4" />
+    <rect x="224" y="56" class="grid-cell c-4" />
+    <rect x="224" y="70" class="grid-cell c-3" />
+    <rect x="224" y="84" class="grid-cell c-2" />
+
+    <!-- Col 17 -->
+    <rect x="238" y="0" class="grid-cell c-3" />
+    <rect x="238" y="14" class="grid-cell c-4" />
+    <rect x="238" y="28" class="grid-cell c-1" />
+    <rect x="238" y="42" class="grid-cell c-2" />
+    <rect x="238" y="56" class="grid-cell c-3" />
+    <rect x="238" y="70" class="grid-cell c-4" />
+    <rect x="238" y="84" class="grid-cell c-1" />
+
+    <!-- Col 18 -->
+    <rect x="252" y="0" class="grid-cell c-2" />
+    <rect x="252" y="14" class="grid-cell c-1" />
+    <rect x="252" y="28" class="grid-cell c-3" />
+    <rect x="252" y="42" class="grid-cell c-4" />
+    <rect x="252" y="56" class="grid-cell c-2" />
+    <rect x="252" y="70" class="grid-cell c-0" />
+    <rect x="252" y="84" class="grid-cell c-2" />
+
+    <!-- Col 19 -->
+    <rect x="266" y="0" class="grid-cell c-4" />
+    <rect x="266" y="14" class="grid-cell c-4" />
+    <rect x="266" y="28" class="grid-cell c-3" />
+    <rect x="266" y="42" class="grid-cell c-2" />
+    <rect x="266" y="56" class="grid-cell c-4" />
+    <rect x="266" y="70" class="grid-cell c-3" />
+    <rect x="266" y="84" class="grid-cell c-4" />
+
+    <!-- Col 20 -->
+    <rect x="280" y="0" class="grid-cell c-3" />
+    <rect x="280" y="14" class="grid-cell c-2" />
+    <rect x="280" y="28" class="grid-cell c-4" />
+    <rect x="280" y="42" class="grid-cell c-4" />
+    <rect x="280" y="56" class="grid-cell c-1" />
+    <rect x="280" y="70" class="grid-cell c-2" />
+    <rect x="280" y="84" class="grid-cell c-3" />
+
+    <!-- Col 21 -->
+    <rect x="294" y="0" class="grid-cell c-2" />
+    <rect x="294" y="14" class="grid-cell c-3" />
+    <rect x="294" y="28" class="grid-cell c-2" />
+    <rect x="294" y="42" class="grid-cell c-0" />
+    <rect x="294" y="56" class="grid-cell c-3" />
+    <rect x="294" y="70" class="grid-cell c-4" />
+    <rect x="294" y="84" class="grid-cell c-2" />
+
+    <!-- Col 22 -->
+    <rect x="308" y="0" class="grid-cell c-4" />
+    <rect x="308" y="14" class="grid-cell c-4" />
+    <rect x="308" y="28" class="grid-cell c-3" />
+    <rect x="308" y="42" class="grid-cell c-4" />
+    <rect x="308" y="56" class="grid-cell c-4" />
+    <rect x="308" y="70" class="grid-cell c-3" />
+    <rect x="308" y="84" class="grid-cell c-4" />
+
+    <!-- Col 23 -->
+    <rect x="322" y="0" class="grid-cell c-3" />
+    <rect x="322" y="14" class="grid-cell c-2" />
+    <rect x="322" y="28" class="grid-cell c-4" />
+    <rect x="322" y="42" class="grid-cell c-3" />
+    <rect x="322" y="56" class="grid-cell c-2" />
+    <rect x="322" y="70" class="grid-cell c-1" />
+    <rect x="322" y="84" class="grid-cell c-3" />
+
+    <!-- Col 24 -->
+    <rect x="336" y="0" class="grid-cell c-1" />
+    <rect x="336" y="14" class="grid-cell c-4" />
+    <rect x="336" y="28" class="grid-cell c-3" />
+    <rect x="336" y="42" class="grid-cell c-2" />
+    <rect x="336" y="56" class="grid-cell c-4" />
+    <rect x="336" y="70" class="grid-cell c-4" />
+    <rect x="336" y="84" class="grid-cell c-2" />
+
+    <!-- Col 25 -->
+    <rect x="350" y="0" class="grid-cell c-4" />
+    <rect x="350" y="14" class="grid-cell c-3" />
+    <rect x="350" y="28" class="grid-cell c-2" />
+    <rect x="350" y="42" class="grid-cell c-4" />
+    <rect x="350" y="56" class="grid-cell c-3" />
+    <rect x="350" y="70" class="grid-cell c-2" />
+    <rect x="350" y="84" class="grid-cell c-1" />
+
+    <!-- Col 26 -->
+    <rect x="364" y="0" class="grid-cell c-3" />
+    <rect x="364" y="14" class="grid-cell c-4" />
+    <rect x="364" y="28" class="grid-cell c-4" />
+    <rect x="364" y="42" class="grid-cell c-1" />
+    <rect x="364" y="56" class="grid-cell c-2" />
+    <rect x="364" y="70" class="grid-cell c-4" />
+    <rect x="364" y="84" class="grid-cell c-4" />
+
+    <!-- Col 27 -->
+    <rect x="378" y="0" class="grid-cell c-2" />
+    <rect x="378" y="14" class="grid-cell c-3" />
+    <rect x="378" y="28" class="grid-cell c-1" />
+    <rect x="378" y="42" class="grid-cell c-4" />
+    <rect x="378" y="56" class="grid-cell c-3" />
+    <rect x="378" y="70" class="grid-cell c-1" />
+    <rect x="378" y="84" class="grid-cell c-2" />
+
+    <!-- Col 28 -->
+    <rect x="392" y="0" class="grid-cell c-4" />
+    <rect x="392" y="14" class="grid-cell c-4" />
+    <rect x="392" y="28" class="grid-cell c-3" />
+    <rect x="392" y="42" class="grid-cell c-2" />
+    <rect x="392" y="56" class="grid-cell c-4" />
+    <rect x="392" y="70" class="grid-cell c-4" />
+    <rect x="392" y="84" class="grid-cell c-3" />
+
+    <!-- Col 29 -->
+    <rect x="406" y="0" class="grid-cell c-3" />
+    <rect x="406" y="14" class="grid-cell c-2" />
+    <rect x="406" y="28" class="grid-cell c-4" />
+    <rect x="406" y="42" class="grid-cell c-4" />
+    <rect x="406" y="56" class="grid-cell c-2" />
+    <rect x="406" y="70" class="grid-cell c-1" />
+    <rect x="406" y="84" class="grid-cell c-4" />
+
+    <!-- Col 30 -->
+    <rect x="420" y="0" class="grid-cell c-1" />
+    <rect x="420" y="14" class="grid-cell c-4" />
+    <rect x="420" y="28" class="grid-cell c-3" />
+    <rect x="420" y="42" class="grid-cell c-1" />
+    <rect x="420" y="56" class="grid-cell c-3" />
+    <rect x="420" y="70" class="grid-cell c-4" />
+    <rect x="420" y="84" class="grid-cell c-2" />
+
+    <!-- Col 31 -->
+    <rect x="434" y="0" class="grid-cell c-4" />
+    <rect x="434" y="14" class="grid-cell c-3" />
+    <rect x="434" y="28" class="grid-cell c-2" />
+    <rect x="434" y="42" class="grid-cell c-4" />
+    <rect x="434" y="56" class="grid-cell c-4" />
+    <rect x="434" y="70" class="grid-cell c-3" />
+    <rect x="434" y="84" class="grid-cell c-1" />
+
+    <!-- Col 32 -->
+    <rect x="448" y="0" class="grid-cell c-2" />
+    <rect x="448" y="14" class="grid-cell c-1" />
+    <rect x="448" y="28" class="grid-cell c-4" />
+    <rect x="448" y="42" class="grid-cell c-3" />
+    <rect x="448" y="56" class="grid-cell c-2" />
+    <rect x="448" y="70" class="grid-cell c-4" />
+    <rect x="448" y="84" class="grid-cell c-4" />
+
+    <!-- Col 33 -->
+    <rect x="462" y="0" class="grid-cell c-3" />
+    <rect x="462" y="14" class="grid-cell c-4" />
+    <rect x="462" y="28" class="grid-cell c-3" />
+    <rect x="462" y="42" class="grid-cell c-2" />
+    <rect x="462" y="56" class="grid-cell c-1" />
+    <rect x="462" y="70" class="grid-cell c-2" />
+    <rect x="462" y="84" class="grid-cell c-3" />
+
+    <!-- Col 34 -->
+    <rect x="476" y="0" class="grid-cell c-4" />
+    <rect x="476" y="14" class="grid-cell c-3" />
+    <rect x="476" y="28" class="grid-cell c-4" />
+    <rect x="476" y="42" class="grid-cell c-4" />
+    <rect x="476" y="56" class="grid-cell c-3" />
+    <rect x="476" y="70" class="grid-cell c-4" />
+    <rect x="476" y="84" class="grid-cell c-2" />
+
+    <!-- Col 35 -->
+    <rect x="490" y="0" class="grid-cell c-2" />
+    <rect x="490" y="14" class="grid-cell c-4" />
+    <rect x="490" y="28" class="grid-cell c-2" />
+    <rect x="490" y="42" class="grid-cell c-1" />
+    <rect x="490" y="56" class="grid-cell c-4" />
+    <rect x="490" y="70" class="grid-cell c-3" />
+    <rect x="490" y="84" class="grid-cell c-4" />
+
+    <!-- Col 36 -->
+    <rect x="504" y="0" class="grid-cell c-3" />
+    <rect x="504" y="14" class="grid-cell c-2" />
+    <rect x="504" y="28" class="grid-cell c-4" />
+    <rect x="504" y="42" class="grid-cell c-3" />
+    <rect x="504" y="56" class="grid-cell c-4" />
+    <rect x="504" y="70" class="grid-cell c-1" />
+    <rect x="504" y="84" class="grid-cell c-2" />
+
+    <!-- Col 37 -->
+    <rect x="518" y="0" class="grid-cell c-4" />
+    <rect x="518" y="14" class="grid-cell c-3" />
+    <rect x="518" y="28" class="grid-cell c-1" />
+    <rect x="518" y="42" class="grid-cell c-4" />
+    <rect x="518" y="56" class="grid-cell c-2" />
+    <rect x="518" y="70" class="grid-cell c-4" />
+    <rect x="518" y="84" class="grid-cell c-3" />
+
+    <!-- Col 38 -->
+    <rect x="532" y="0" class="grid-cell c-2" />
+    <rect x="532" y="14" class="grid-cell c-4" />
+    <rect x="532" y="28" class="grid-cell c-4" />
+    <rect x="532" y="42" class="grid-cell c-3" />
+    <rect x="532" y="56" class="grid-cell c-1" />
+    <rect x="532" y="70" class="grid-cell c-2" />
+    <rect x="532" y="84" class="grid-cell c-4" />
+
+    <!-- Col 39 -->
+    <rect x="546" y="0" class="grid-cell c-3" />
+    <rect x="546" y="14" class="grid-cell c-2" />
+    <rect x="546" y="28" class="grid-cell c-4" />
+    <rect x="546" y="42" class="grid-cell c-2" />
+    <rect x="546" y="56" class="grid-cell c-4" />
+    <rect x="546" y="70" class="grid-cell c-4" />
+    <rect x="546" y="84" class="grid-cell c-3" />
+
+    <!-- Col 40 -->
+    <rect x="560" y="0" class="grid-cell c-4" />
+    <rect x="560" y="14" class="grid-cell c-4" />
+    <rect x="560" y="28" class="grid-cell c-3" />
+    <rect x="560" y="42" class="grid-cell c-4" />
+    <rect x="560" y="56" class="grid-cell c-3" />
+    <rect x="560" y="70" class="grid-cell c-2" />
+    <rect x="560" y="84" class="grid-cell c-1" />
+
+    <!-- Col 41 -->
+    <rect x="574" y="0" class="grid-cell c-1" />
+    <rect x="574" y="14" class="grid-cell c-3" />
+    <rect x="574" y="28" class="grid-cell c-2" />
+    <rect x="574" y="42" class="grid-cell c-4" />
+    <rect x="574" y="56" class="grid-cell c-4" />
+    <rect x="574" y="70" class="grid-cell c-3" />
+    <rect x="574" y="84" class="grid-cell c-4" />
+
+    <!-- Col 42 -->
+    <rect x="588" y="0" class="grid-cell c-4" />
+    <rect x="588" y="14" class="grid-cell c-4" />
+    <rect x="588" y="28" class="grid-cell c-4" />
+    <rect x="588" y="42" class="grid-cell c-3" />
+    <rect x="588" y="56" class="grid-cell c-2" />
+    <rect x="588" y="70" class="grid-cell c-4" />
+    <rect x="588" y="84" class="grid-cell c-2" />
+
+    <!-- Col 43 -->
+    <rect x="602" y="0" class="grid-cell c-3" />
+    <rect x="602" y="14" class="grid-cell c-2" />
+    <rect x="602" y="28" class="grid-cell c-4" />
+    <rect x="602" y="42" class="grid-cell c-4" />
+    <rect x="602" y="56" class="grid-cell c-3" />
+    <rect x="602" y="70" class="grid-cell c-1" />
+    <rect x="602" y="84" class="grid-cell c-4" />
+
+    <!-- Col 44 -->
+    <rect x="616" y="0" class="grid-cell c-2" />
+    <rect x="616" y="14" class="grid-cell c-4" />
+    <rect x="616" y="28" class="grid-cell c-3" />
+    <rect x="616" y="42" class="grid-cell c-1" />
+    <rect x="616" y="56" class="grid-cell c-4" />
+    <rect x="616" y="70" class="grid-cell c-4" />
+    <rect x="616" y="84" class="grid-cell c-3" />
+
+    <!-- Col 45 -->
+    <rect x="630" y="0" class="grid-cell c-4" />
+    <rect x="630" y="14" class="grid-cell c-4" />
+    <rect x="630" y="28" class="grid-cell c-4" />
+    <rect x="630" y="42" class="grid-cell c-3" />
+    <rect x="630" y="56" class="grid-cell c-2" />
+    <rect x="630" y="70" class="grid-cell c-4" />
+    <rect x="630" y="84" class="grid-cell c-4" />
+
+    <!-- Col 46 - 55 -->
+    <rect x="644" y="0" class="grid-cell c-3" />
+    <rect x="644" y="14" class="grid-cell c-4" />
+    <rect x="644" y="28" class="grid-cell c-2" />
+    <rect x="644" y="42" class="grid-cell c-4" />
+    <rect x="644" y="56" class="grid-cell c-4" />
+    <rect x="644" y="70" class="grid-cell c-3" />
+    <rect x="644" y="84" class="grid-cell c-4" />
+
+    <rect x="658" y="0" class="grid-cell c-4" />
+    <rect x="658" y="14" class="grid-cell c-4" />
+    <rect x="658" y="28" class="grid-cell c-4" />
+    <rect x="658" y="42" class="grid-cell c-4" />
+    <rect x="658" y="56" class="grid-cell c-3" />
+    <rect x="658" y="70" class="grid-cell c-4" />
+    <rect x="658" y="84" class="grid-cell c-2" />
+
+    <rect x="672" y="0" class="grid-cell c-3" />
+    <rect x="672" y="14" class="grid-cell c-4" />
+    <rect x="672" y="28" class="grid-cell c-4" />
+    <rect x="672" y="42" class="grid-cell c-3" />
+    <rect x="672" y="56" class="grid-cell c-4" />
+    <rect x="672" y="70" class="grid-cell c-4" />
+    <rect x="672" y="84" class="grid-cell c-4" />
+
+    <rect x="686" y="0" class="grid-cell c-4" />
+    <rect x="686" y="14" class="grid-cell c-3" />
+    <rect x="686" y="28" class="grid-cell c-4" />
+    <rect x="686" y="42" class="grid-cell c-4" />
+    <rect x="686" y="56" class="grid-cell c-4" />
+    <rect x="686" y="70" class="grid-cell c-3" />
+    <rect x="686" y="84" class="grid-cell c-4" />
+
+    <rect x="700" y="0" class="grid-cell c-4" />
+    <rect x="700" y="14" class="grid-cell c-4" />
+    <rect x="700" y="28" class="grid-cell c-3" />
+    <rect x="700" y="42" class="grid-cell c-4" />
+    <rect x="700" y="56" class="grid-cell c-4" />
+    <rect x="700" y="70" class="grid-cell c-4" />
+    <rect x="700" y="84" class="grid-cell c-4" />
+
+    <rect x="714" y="0" class="grid-cell c-3" />
+    <rect x="714" y="14" class="grid-cell c-4" />
+    <rect x="714" y="28" class="grid-cell c-4" />
+    <rect x="714" y="42" class="grid-cell c-4" />
+    <rect x="714" y="56" class="grid-cell c-3" />
+    <rect x="714" y="70" class="grid-cell c-4" />
+    <rect x="714" y="84" class="grid-cell c-4" />
+
+    <rect x="728" y="0" class="grid-cell c-4" />
+    <rect x="728" y="14" class="grid-cell c-4" />
+    <rect x="728" y="28" class="grid-cell c-4" />
+    <rect x="728" y="42" class="grid-cell c-4" />
+    <rect x="728" y="56" class="grid-cell c-4" />
+    <rect x="728" y="70" class="grid-cell c-3" />
+    <rect x="728" y="84" class="grid-cell c-4" />
+
+    <rect x="742" y="0" class="grid-cell c-4" />
+    <rect x="742" y="14" class="grid-cell c-3" />
+    <rect x="742" y="28" class="grid-cell c-4" />
+    <rect x="742" y="42" class="grid-cell c-4" />
+    <rect x="742" y="56" class="grid-cell c-4" />
+    <rect x="742" y="70" class="grid-cell c-4" />
+    <rect x="742" y="84" class="grid-cell c-4" />
+
+    <rect x="756" y="0" class="grid-cell c-4" />
+    <rect x="756" y="14" class="grid-cell c-4" />
+    <rect x="756" y="28" class="grid-cell c-4" />
+    <rect x="756" y="42" class="grid-cell c-4" />
+    <rect x="756" y="56" class="grid-cell c-4" />
+    <rect x="756" y="70" class="grid-cell c-4" />
+    <rect x="756" y="84" class="grid-cell c-4" />
+
+    <rect x="770" y="0" class="grid-cell c-4" />
+    <rect x="770" y="14" class="grid-cell c-4" />
+    <rect x="770" y="28" class="grid-cell c-4" />
+    <rect x="770" y="42" class="grid-cell c-4" />
+    <rect x="770" y="56" class="grid-cell c-4" />
+    <rect x="770" y="70" class="grid-cell c-4" />
+    <rect x="770" y="84" class="grid-cell c-4" />
+
+    <!-- Animated Cyber Snake eating contributions -->
+    <g class="snake-head" filter="url(#snakeGlow)">
+      <!-- Head -->
+      <rect x="0" y="0" width="11" height="11" rx="3" fill="#00E5FF" stroke="#FFFFFF" stroke-width="1.2" />
+      <circle cx="3.5" cy="4" r="1" fill="#0A0C16" />
+      <circle cx="7.5" cy="4" r="1" fill="#0A0C16" />
+
+      <!-- Body Segments trailing -->
+      <rect x="-14" y="0" width="11" height="11" rx="2.5" fill="#00E5FF" opacity="0.9" />
+      <rect x="-28" y="0" width="11" height="11" rx="2.5" fill="#7928CA" opacity="0.8" />
+      <rect x="-42" y="0" width="11" height="11" rx="2.5" fill="#FF007F" opacity="0.7" />
+      <rect x="-56" y="0" width="11" height="11" rx="2.5" fill="#FF007F" opacity="0.5" />
+    </g>
+  </g>
+</svg>
