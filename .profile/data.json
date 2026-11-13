@@ -1,5 +1,5 @@
 {
- "key": "bc735cbb",
+ "key": "bf59fa25",
  "stars": 9,
  "contributions": 612,
  "repos": 9,
@@ -7,19 +7,11 @@
  "languages": [
   [
    "C#",
-   1300523
+   590544
   ],
   [
    "HTML",
-   574895
-  ],
-  [
-   "CSS",
-   80024
-  ],
-  [
-   "JavaScript",
-   6974
+   131169
   ],
   [
    "GDScript",
@@ -132,11 +124,7 @@
     "day": 13,
     "today": true
    },
-   {
-    "c": 0,
-    "day": 14,
-    "today": false
-   }
+   null
   ]
  ],
  "streak": {
