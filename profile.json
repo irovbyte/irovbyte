@@ -21,7 +21,7 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Roman Zoripov",
-    "subtitle": "Full-Stack .NET 10 Architect & System Engineer.\nFounder of OctoCore · High-Performance Core & Network Engines.",
+    "subtitle": "Full-Stack .NET 10 Architect & System Engineer.\nFounder of OctoCore · High-Performance Core, Linux & Client Apps.",
     "typing": true,
     "avatarShape": "cookie12",
     "chips": [
@@ -31,7 +31,7 @@
       },
       {
         "icon": "code",
-        "label": "C# 14 · .NET 10 · Native AOT · Sockets"
+        "label": "C# 14 · .NET 10 · WinUI 3 · MAUI · Linux"
       }
     ]
   },
@@ -48,15 +48,15 @@
       },
       {
         "icon": "monitoring",
-        "label": "High-Performance Networking (Sockets, Channels, Wintun L3)"
+        "label": "High-Performance Sockets, Channels & Wintun L3 Protocols"
       },
       {
         "icon": "desktop_windows",
-        "label": "Desktop Development (WPF, .NET MAUI, Fluent 2 Design)"
+        "label": "Modern Client Apps (WinUI 3, .NET MAUI, Fluent 2 XAML)"
       },
       {
-        "icon": "code",
-        "label": "Strict .NET 10 code quality & Zero-Allocation architectures"
+        "icon": "terminal",
+        "label": "Linux Server Administration, Docker & CI/CD Deployment"
       }
     ]
   },
@@ -80,16 +80,16 @@
           },
           {
             "icon": "brand:docker",
-            "label": "Docker"
+            "label": "Docker & Servers"
           }
         ]
       },
       {
-        "title": "Client & Desktop",
+        "title": "Client & UI",
         "items": [
           {
             "icon": "desktop_windows",
-            "label": "WPF / XAML"
+            "label": "WinUI 3"
           },
           {
             "icon": "brand:dotnet",
@@ -97,7 +97,7 @@
           },
           {
             "icon": "palette",
-            "label": "Fluent 2 Design"
+            "label": "XAML & Fluent 2"
           },
           {
             "icon": "terminal",
@@ -106,11 +106,11 @@
         ]
       },
       {
-        "title": "CI/CD & Tools",
+        "title": "DevOps & Systems",
         "items": [
           {
-            "icon": "brand:git",
-            "label": "Git"
+            "icon": "terminal",
+            "label": "Linux & Ubuntu"
           },
           {
             "icon": "brand:githubactions",
@@ -133,8 +133,7 @@
     "repos": [
       "obxodka",
       "DevByteLauncher",
-      "Uni-Sentinel",
-      "CustomTerminals"
+      "OctoPublisher"
     ],
     "overrides": {},
     "empty": "No description yet.",
