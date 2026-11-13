@@ -1,17 +1,25 @@
 {
- "key": "76c9fefa",
+ "key": "bc735cbb",
  "stars": 9,
- "contributions": 611,
+ "contributions": 612,
  "repos": 9,
  "followers": 7,
  "languages": [
   [
    "C#",
-   590544
+   1300523
   ],
   [
    "HTML",
-   131169
+   574895
+  ],
+  [
+   "CSS",
+   80024
+  ],
+  [
+   "JavaScript",
+   6974
   ],
   [
    "GDScript",
@@ -120,11 +128,15 @@
     "today": false
    },
    {
-    "c": 20,
+    "c": 21,
     "day": 13,
     "today": true
    },
-   null
+   {
+    "c": 0,
+    "day": 14,
+    "today": false
+   }
   ]
  ],
  "streak": {
@@ -142,20 +154,20 @@
    "topics": []
   },
   {
-   "name": "Uni-Sentinel",
-   "url": "https://github.com/irovbyte/Uni-Sentinel",
-   "text": "Универсальный локальный CI/CD пайплайн одной командой. Автоматическая проверка стиля (Clang-format/PEP8), умная сборка, тесты и анализ памяти (Valgrind). Работает с C и Python без настройки.",
+   "name": "DevByteLauncher",
+   "url": "https://github.com/irovbyte/DevByteLauncher",
+   "text": "",
    "fork": false,
-   "stars": 2,
+   "stars": 0,
    "language": "C#",
    "topics": []
   },
   {
-   "name": "CIDE",
-   "url": "https://github.com/irovbyte/CIDE",
-   "text": "",
+   "name": "OctoPublisher",
+   "url": "https://github.com/OctoCore-Dev/OctoPublisher",
+   "text": "Universal high-performance multi-store publishing CLI for modern CI/CD and local terminals.",
    "fork": false,
-   "stars": 1,
+   "stars": 0,
    "language": "C#",
    "topics": []
   }

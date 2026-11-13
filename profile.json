@@ -1,7 +1,7 @@
 {
   "version": 1,
   "login": "irovbyte",
-  "seed": "#00B4D8",
+  "seed": "#0078D4",
   "seedFromAvatar": false,
   "scheme": "tonalSpot",
   "motion": true,
@@ -21,7 +21,7 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Roman Zoripov",
-    "subtitle": "Full-Stack .NET 10 Architect & System Engineer.\nFounder of OctoCore · Digital Freedom & High-Performance Core.",
+    "subtitle": "Full-Stack .NET 10 Architect & System Engineer.\nFounder of OctoCore · High-Performance Core & Network Engines.",
     "typing": true,
     "avatarShape": "cookie12",
     "chips": [
@@ -44,19 +44,19 @@
       },
       {
         "icon": "deployed_code",
-        "label": "Founder of OctoCore & Digital Freedom Technologies"
+        "label": "Founder of OctoCore & Digital Freedom Infrastructure"
       },
       {
         "icon": "monitoring",
-        "label": "High-Performance Low-Level Networking (Sockets, Channels, Wintun L3)"
+        "label": "High-Performance Networking (Sockets, Channels, Wintun L3)"
       },
       {
         "icon": "desktop_windows",
-        "label": "Desktop & Cross-Platform (WPF, .NET MAUI, Fluent 2 Design)"
+        "label": "Desktop Development (WPF, .NET MAUI, Fluent 2 Design)"
       },
       {
-        "icon": "palette",
-        "label": "Modern Microsoft Fluent 2 & Material 3 UI/UX Architect"
+        "icon": "code",
+        "label": "Strict .NET 10 code quality & Zero-Allocation architectures"
       }
     ]
   },
@@ -64,7 +64,7 @@
     "title": "Tech stack",
     "groups": [
       {
-        "title": "Architecture & Core",
+        "title": "Core & Architecture",
         "items": [
           {
             "icon": "brand:dotnet",
@@ -75,8 +75,8 @@
             "label": "C++ / Native AOT"
           },
           {
-            "icon": "brand:python",
-            "label": "Python"
+            "icon": "monitoring",
+            "label": "Sockets & Wintun"
           },
           {
             "icon": "brand:docker",
@@ -89,24 +89,24 @@
         "items": [
           {
             "icon": "desktop_windows",
-            "label": "WPF / WinUI 3"
+            "label": "WPF / XAML"
           },
           {
             "icon": "brand:dotnet",
             "label": ".NET MAUI"
           },
           {
-            "icon": "brand:typescript",
-            "label": "TypeScript"
+            "icon": "palette",
+            "label": "Fluent 2 Design"
           },
           {
-            "icon": "brand:react",
-            "label": "React"
+            "icon": "terminal",
+            "label": "Windows Terminal"
           }
         ]
       },
       {
-        "title": "Tools & CI/CD",
+        "title": "CI/CD & Tools",
         "items": [
           {
             "icon": "brand:git",
@@ -121,20 +121,20 @@
             "label": "NuGet"
           },
           {
-            "icon": "brand:figma",
-            "label": "Figma"
+            "icon": "terminal",
+            "label": "PowerShell"
           }
         ]
       }
     ]
   },
   "projects": {
-    "source": "pinned",
+    "source": "repos",
     "repos": [
-      "CustomTerminals",
+      "obxodka",
       "DevByteLauncher",
       "Uni-Sentinel",
-      "false-grin"
+      "CustomTerminals"
     ],
     "overrides": {},
     "empty": "No description yet.",

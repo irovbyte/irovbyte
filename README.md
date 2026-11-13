@@ -8,9 +8,9 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack"></picture>
 
-<a href="https://github.com/OctoCore-Dev/obxodka"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-obxodka-dark.svg"><img src="assets/project-obxodka-light.svg" width="49%" alt="obxodka"></picture></a>&nbsp;<a href="https://github.com/irovbyte/Uni-Sentinel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-uni-sentinel-dark.svg"><img src="assets/project-uni-sentinel-light.svg" width="49%" alt="Uni-Sentinel"></picture></a>
+<a href="https://github.com/OctoCore-Dev/obxodka"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-obxodka-dark.svg"><img src="assets/project-obxodka-light.svg" width="49%" alt="obxodka"></picture></a>&nbsp;<a href="https://github.com/irovbyte/DevByteLauncher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-devbytelauncher-dark.svg"><img src="assets/project-devbytelauncher-light.svg" width="49%" alt="DevByteLauncher"></picture></a>
 
-<a href="https://github.com/irovbyte/CIDE"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-cide-dark.svg"><img src="assets/project-cide-light.svg" width="49%" alt="CIDE"></picture></a>
+<a href="https://github.com/OctoCore-Dev/OctoPublisher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-octopublisher-dark.svg"><img src="assets/project-octopublisher-light.svg" width="49%" alt="OctoPublisher"></picture></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity"></picture>
 
