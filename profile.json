@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "login": "irovbyte",
+  "seed": "#00B4D8",
+  "seedFromAvatar": false,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Roman Zoripov",
+    "subtitle": "Full-Stack .NET 10 Architect & System Engineer.\nFounder of OctoCore · Digital Freedom & High-Performance Core.",
+    "typing": true,
+    "avatarShape": "cookie12",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Samarkand / Remote"
+      },
+      {
+        "icon": "code",
+        "label": "C# 14 · .NET 10 · Native AOT · Sockets"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "terminal",
+        "label": "Full-Stack .NET 10 Architect & System Engineer"
+      },
+      {
+        "icon": "deployed_code",
+        "label": "Founder of OctoCore & Digital Freedom Technologies"
+      },
+      {
+        "icon": "monitoring",
+        "label": "High-Performance Low-Level Networking (Sockets, Channels, Wintun L3)"
+      },
+      {
+        "icon": "desktop_windows",
+        "label": "Desktop & Cross-Platform (WPF, .NET MAUI, Fluent 2 Design)"
+      },
+      {
+        "icon": "palette",
+        "label": "Modern Microsoft Fluent 2 & Material 3 UI/UX Architect"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Architecture & Core",
+        "items": [
+          {
+            "icon": "brand:dotnet",
+            "label": ".NET 10 / C# 14"
+          },
+          {
+            "icon": "brand:cplusplus",
+            "label": "C++ / Native AOT"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          },
+          {
+            "icon": "brand:docker",
+            "label": "Docker"
+          }
+        ]
+      },
+      {
+        "title": "Client & Desktop",
+        "items": [
+          {
+            "icon": "desktop_windows",
+            "label": "WPF / WinUI 3"
+          },
+          {
+            "icon": "brand:dotnet",
+            "label": ".NET MAUI"
+          },
+          {
+            "icon": "brand:typescript",
+            "label": "TypeScript"
+          },
+          {
+            "icon": "brand:react",
+            "label": "React"
+          }
+        ]
+      },
+      {
+        "title": "Tools & CI/CD",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:githubactions",
+            "label": "GitHub Actions"
+          },
+          {
+            "icon": "brand:nuget",
+            "label": "NuGet"
+          },
+          {
+            "icon": "brand:figma",
+            "label": "Figma"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "pinned",
+    "repos": [
+      "CustomTerminals",
+      "DevByteLauncher",
+      "Uni-Sentinel",
+      "false-grin"
+    ],
+    "overrides": {},
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/octo_core"
+      },
+      {
+        "icon": "brand:steam",
+        "url": "https://steamcommunity.com"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "obxodka.one",
+        "url": "https://obxodka.one",
+        "style": "filled"
+      },
+      {
+        "icon": "language",
+        "label": "OctoPublisher",
+        "url": "https://nuget.octopublisher.octocore.dev",
+        "style": "tonal"
+      },
+      {
+        "icon": "book_2",
+        "label": "All repositories",
+        "url": "https://github.com/irovbyte?tab=repositories",
+        "style": "tonal"
+      }
+    ]
+  }
+}
