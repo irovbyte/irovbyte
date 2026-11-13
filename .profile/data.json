@@ -1,25 +1,17 @@
 {
- "key": "b3421902",
+ "key": "68f83a17",
  "stars": 9,
- "contributions": 613,
+ "contributions": 612,
  "repos": 9,
  "followers": 7,
  "languages": [
   [
    "C#",
-   1300523
+   590544
   ],
   [
    "HTML",
-   574895
-  ],
-  [
-   "CSS",
-   80024
-  ],
-  [
-   "JavaScript",
-   6974
+   131169
   ],
   [
    "GDScript",
@@ -132,11 +124,7 @@
     "day": 13,
     "today": true
    },
-   {
-    "c": 1,
-    "day": 14,
-    "today": false
-   }
+   null
   ]
  ],
  "streak": {
