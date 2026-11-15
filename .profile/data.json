@@ -1,6 +1,6 @@
 {
- "key": "bb5f4149",
- "stars": 9,
+ "key": "d95578a1",
+ "stars": 17,
  "contributions": 632,
  "repos": 9,
  "followers": 7,
@@ -137,7 +137,7 @@
    "url": "https://github.com/irovbyte/DevByteLauncher",
    "text": "",
    "fork": false,
-   "stars": 0,
+   "stars": 1,
    "language": "C#",
    "topics": []
   },
@@ -146,7 +146,7 @@
    "url": "https://github.com/OctoCore-Dev/OctoPublisher",
    "text": "Universal high-performance multi-store publishing CLI for modern CI/CD and local terminals.",
    "fork": false,
-   "stars": 0,
+   "stars": 1,
    "language": "C#",
    "topics": []
   }
@@ -157,7 +157,7 @@
    "url": "https://github.com/irovbyte/Uni-Sentinel",
    "text": "Универсальный локальный CI/CD пайплайн одной командой. Автоматическая проверка стиля (Clang-format/PEP8), умная сборка, тесты и анализ памяти (Valgrind). Работает с C и Python без настройки.",
    "fork": false,
-   "stars": 2,
+   "stars": 3,
    "language": "C#",
    "topics": []
   },
@@ -166,7 +166,7 @@
    "url": "https://github.com/irovbyte/false-grin",
    "text": "",
    "fork": false,
-   "stars": 2,
+   "stars": 3,
    "language": "GDScript",
    "topics": []
   },
@@ -175,7 +175,7 @@
    "url": "https://github.com/irovbyte/CustomTerminals",
    "text": "Набор универсальных конфигураций для терминалов Windows и WSL: темы, настройки, хоткеи, Zsh‑окружение и автоматическая установка. Проект для тех, кто хочет стильный, быстрый и удобный терминал на любой системе.",
    "fork": false,
-   "stars": 2,
+   "stars": 3,
    "language": "Shell",
    "topics": []
   },
@@ -184,7 +184,7 @@
    "url": "https://github.com/irovbyte/CIDE",
    "text": "",
    "fork": false,
-   "stars": 1,
+   "stars": 2,
    "language": "C#",
    "topics": []
   },
@@ -193,7 +193,7 @@
    "url": "https://github.com/irovbyte/Geoportal",
    "text": "",
    "fork": false,
-   "stars": 1,
+   "stars": 2,
    "language": "HTML",
    "topics": []
   },
@@ -202,7 +202,7 @@
    "url": "https://github.com/irovbyte/irovbyte",
    "text": "",
    "fork": false,
-   "stars": 1,
+   "stars": 2,
    "language": null,
    "topics": []
   },
@@ -211,7 +211,7 @@
    "url": "https://github.com/irovbyte/TestMod",
    "text": "",
    "fork": true,
-   "stars": 0,
+   "stars": 1,
    "language": "Java",
    "topics": []
   },
@@ -220,7 +220,7 @@
    "url": "https://github.com/irovbyte/DevByteLauncher",
    "text": "",
    "fork": false,
-   "stars": 0,
+   "stars": 1,
    "language": "C#",
    "topics": []
   },
@@ -229,7 +229,7 @@
    "url": "https://github.com/irovbyte/PCDiagnosticTool",
    "text": "",
    "fork": false,
-   "stars": 0,
+   "stars": 1,
    "language": "C#",
    "topics": []
   }
